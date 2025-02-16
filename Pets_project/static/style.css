@@ -1,0 +1,87 @@
+header {
+    background-color: rgb(233, 174, 87);
+    text-transform: uppercase;
+}
+
+body {
+    letter-spacing: 2px;
+    font-size: 1.2vw;
+    font-weight: 1.2vw;
+    
+}
+
+.story-sect {
+    background-color: rgb(233, 174, 87);
+    color: #fff;
+}
+.contact_section {
+    background-color: rgb(233, 174, 87);
+    color : #fff;
+}
+footer {
+    color: #fff;
+    background-color: rgb(239, 206, 157);
+    text-transform: uppercase;
+}
+.logo-section {
+    width: 10%;
+}
+.logo {
+    max-width: 60%;
+}
+.box-feature {
+    width: 60%;
+    max-height: auto;
+}
+.box-feature img {
+    width: 100%;
+}
+.service {
+    width: 100%;
+    color: black;
+}
+.service img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+h2 {
+    font-size: 2.8vw;
+    text-transform: uppercase;
+}
+section h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+.title-text {
+    width: 40%;
+    text-align: center;
+    color: black;
+}
+.section-text h2 {
+    text-align: center;
+}
+.samples {
+    text-align: center;
+}
+form .btn {
+    text-align: center;
+    background-color: #e6e8e8;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: inherit;
+}
+footer span {
+    text-align: center;
+}

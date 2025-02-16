@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pet's House</title>
+    <link rel="stylesheet" href="static/style.css" />
+  </head>
+  <body>
+    <body>
+      <!--header-section-->
+      <header>
+        <div class="logo-section">
+          <img class="logo" src="images/logo.svg" alt="logo" />
+        </div>
+        <nav class="navigation-section">
+          <ul class="navigation">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About Us</a></li>
+            <li><a class="nav-link" href="#display">Display</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--main section-->
+      <main>
+        <div class="container">
+          <section id="home" class="cover-sect">
+            <div class="title-text">
+              <h1>Welcome</h1>
+              <p>~ This website offers personalised services for pets. ~</p>
+            </div>
+            <div class="box-feature">
+              <img class="cover-image" src="images/cat.jpeg" alt="just a cat" />
+            </div>
+          </section>
+
+          <section id="about" class="story-sect">
+            <div class="section-text">
+              <h2>About Us</h2>
+              <p>
+                we're about creating a community of happy pets and happier pet
+                owners. <br /><br />
+                Our exceptional customer service team is dedicated to providing
+                you with a seamless shopping experience, offering expert support
+                from browsing to delivery and beyond. <br /><br />We understand
+                the importance of fast, reliable service, which is why we offer
+                expedited shipping options and hassle-free returns.
+              </p>
+            </div>
+            <div class="box-feature circle">
+              <img src="images/intro.png" />
+            </div>
+          </section>
+
+          <!-- display section -->
+          <section id="display" class="samples">
+            <div class="section-text">
+              <h2>Display</h2>
+            </div>
+            <div class="services">
+              <div class="service">
+                <figure>
+                  <img src="images/service-1.png" alt="Dog walking services" />
+                  <figcaption>Provide pet care services.</figcaption>
+                </figure>
+              </div>
+
+              <div class="service">
+                <figure>
+                  <img src="images/service-2.png" alt="Pet check-up services" />
+                  <figcaption>Provide pet check-up services.</figcaption>
+                </figure>
+              </div>
+
+              <div class="service">
+                <figure>
+                  <img src="images/service-3.png" alt="Pet washing services" />
+                  <figcaption>Provide pet washing services.</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+          <!-- contact section -->
+          <section id="contact" class="contact-section">
+            <div class="section-text">
+              <h2>Contact Us</h2>
+              <p>
+                Welcome to our pet website! We're thrilled to have you here and
+                eager to share with you the array of services we offer for you
+                and your beloved pets. Whether you're looking for grooming,
+                boarding, training, or any other pet-related service, we've got
+                you covered. Our team is passionate about animals and committed
+                to providing the best care possible. If you're interested in
+                learning more about our services or if you're considering
+                joining our community, we encourage you to fill out our form.
+                This will allow us to understand your needs better and offer
+                tailored solutions for you and your pet. Welcome aboard, and we
+                look forward to serving you!
+              </p>
+            </div>
+            <div class="contact-info">
+              <div class="form-box">
+                <form id="form" class="contact-form" action="#">
+                  <label for="name" class="form-content"
+                    >Name <br />
+                    <input
+                      name="name"
+                      id="name"
+                      type="text"
+                      class="txt-box"
+                      required
+                    /><br />
+                  </label>
+                  <label for="email" class="form-content"
+                    >Email <br />
+                    <input
+                      name="email"
+                      id="email"
+                      type="email"
+                      class="txt-box"
+                      required
+                    /><br />
+                  </label>
+                  <label for="message" class="form-content"
+                    >Demand for services<br />
+                    <select name="message" id="message" class="txt-box">
+                      <option value="">Feeding pets at home</option>
+                      <option value="">Pet play service</option>
+                      <option value="">Pet bathing service</option>
+                      <option value="">Join us</option>
+                    </select>
+                    <br /> </label
+                  ><br />
+                  <input class="btn" id="submit" type="submit" value="Submit" />
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!--footer section-->
+      <footer>
+        <span class="contact-us">Contact Us</span>
+        <span class="company-info">Created by Lotus</span>
+        <span>@Copyright 2024</span>
+      </footer>
+    </body>
+  </body>
+</html>
